@@ -1,0 +1,15 @@
+.mainContent {
+  width: calc(100% - 18%); /* Adjust the width based on the width of the sidebar */
+  height: 100%;
+  padding: 2rem;
+  overflow: auto;
+  position: absolute;
+  left: 250px;
+  top: 20px;
+
+  .bottom {
+    margin-top: 2rem;
+    gap: 2rem;
+    align-items: flex-start;
+  }
+}

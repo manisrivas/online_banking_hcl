@@ -1,0 +1,66 @@
+/* cardform.scss */
+
+/* Global styles */
+
+  
+  /* Flex container for form and saved cards */
+  .cont {
+    display: flex;
+  }
+  
+  /* Form styles */
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 20px; /* Add some spacing between form and saved cards */
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Saved cards styles */
+  .saved-cards-container {
+    display: flex;
+    flex-direction: column; /* Display saved cards vertically */
+    gap: 10px; /* Add some spacing between saved cards */
+  }
+  
+  .saved-cards-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .saved-cards-list li {
+    margin-bottom: 10px;
+  }
+  
+  .saved-cards-list li strong {
+    font-weight: bold;
+  }
+  
+  .saved-cards-list li button {
+    background-color: #ff0000;
+  }
+  

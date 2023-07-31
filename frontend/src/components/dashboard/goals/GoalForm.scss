@@ -1,0 +1,68 @@
+.cont {
+    display: flex;
+  }
+  
+  /* Form styles */
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 20px; /* Add some spacing between form and saved cards */
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    max-width: 200px;
+    margin: auto;
+  
+    div {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+  
+      label {
+        font-weight: 400;
+        font-size: 12px;
+        color: #333;
+      }
+  
+      input {
+        background-color: #fff;
+        color: #333;
+        border: 2px solid #ccc;
+        border-radius: 8px;
+        padding: 8px;
+        font-size: 18px;
+        width: 100%;
+        outline: none;
+  
+        &:focus {
+          border-color: #007bff;
+        }
+      }
+    }
+  
+    button[type="submit"] {
+      padding: 12px 24px;
+      background-color: #007bff;
+      border: none;
+      border-radius: 8px;
+      color: #fff;
+      font-size: 18px;
+      align-self: center;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  }
+  
